@@ -6,4 +6,17 @@
         a: integer
     Returns:
         a: integer*/
-void main() {}
+void main() {
+    int a=-3;
+    
+    if (a>0){
+        print(a+1);
+    }
+
+    if (a<0) {
+        print(a-2);
+    }
+    if (a==0) {
+        print(a=10);
+    }
+}
