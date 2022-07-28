@@ -6,17 +6,29 @@
         a: integer
     Returns:
         a: integer*/
-void main() {
-    int a=-3;
-    
+int func(int a){
     if (a>0){
-        print(a+1);
+        a+=1;
     }
-
-    if (a<0) {
-        print(a-2);
+    if (a<0){
+        a-=2;
     }
-    if (a==0) {
-        print(a=10);
+    if (a==0){
+        a=10;
     }
+    return a;
 }
+void main() {
+    print(func(0));
+}   
+//     if (a>0){
+//         print(a+1);
+//     }
+
+//     if (a<0) {
+//         print(a-2);
+//     }
+//     if (a==0) {
+//         print(a=10);
+//     }
+// }
