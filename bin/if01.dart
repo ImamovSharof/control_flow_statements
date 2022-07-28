@@ -7,13 +7,14 @@
     Returns:
         a: a increased by 1 if positive, else unchanged.
  */
-void main() {
-    int a=32;
-    
+int func(int a) {
     if (a>0){
-        print(a+1); 
+        return a+1;
     }
-    if (a<0){
-        print(a);
-    }
+
+        return a;
+
+}
+void main() {
+    print(func(-5));
 }
